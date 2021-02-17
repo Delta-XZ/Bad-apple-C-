@@ -42,7 +42,7 @@ main()
     char *txt = ".txt";
     //char *directory = "G:/BADAPPLE/CASCII/";
     for(int filename = 1; filename < 6673; filename = filename + 1){;
-    std::string directory = "C:/users/mrsak/desktop/test/test/CASCII/"  + std::to_string(filename) + txt;
+    std::string directory = "G:/badapple/cascii/"  + std::to_string(filename) + txt;
     //std::cout << directory;
     std::ifstream file(directory);
 
